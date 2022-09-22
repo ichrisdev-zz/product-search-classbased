@@ -1,0 +1,17 @@
+.card-list {
+    /* row and colums of 2 card */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.card-image {
+    /* responsive image */
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+
+}
